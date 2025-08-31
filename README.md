@@ -1,6 +1,16 @@
 
 # [Backroom]
 
+<div align="center">
+  <img src="https://github.com/CordeiroGente/Imagens/blob/main/PisyIA%20Full.png?raw=true" alt="Logo PisyIA" width="600px">
+  
+  ### Organizando o seu tempo
+  
+  ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+  ![Versão](https://img.shields.io/badge/versão-0.0.1-brightgreen)
+</div>
+
+
 ## 📑 Índice
 
 | [Desafio](#descrição-do-desafio) | [Backlog](#backlog-do-produto)|[Cronograma](#cronograma-de-evolução-do-projeto) | [Sprints](#tabela-descritiva-das-sprints) | [Tecnologias](#tecnologias-utilizadas) | [Estrutura](#estrutura-do-projeto) | [Documentação](#link-para-documentação) | [Equipe](#equipe) |
