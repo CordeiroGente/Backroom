@@ -2,7 +2,7 @@
 # [Backroom]
 
 <div align="center">
-  <img src="[https://github.com/CordeiroGente/Imagens/blob/main/PisyIA%20Full.png?raw=true" alt="Logo PisyIA](https://github.com/CordeiroGente/Imagens/blob/main/completo.png?raw=true)" width="600px">
+  <img src="[https://github.com/CordeiroGente/Imagens/blob/main/PisyIA%20Full.png?raw=true" width="600px">
   
   ### Organizando o seu tempo
   
