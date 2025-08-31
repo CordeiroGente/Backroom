@@ -1,5 +1,5 @@
 
-# [Backroom]
+# Backroom
 
 <div align="center">
   <img src="https://github.com/CordeiroGente/Imagens/blob/main/Logo%20Completo%20Backroom.png?raw=true" width="600px">
@@ -59,8 +59,8 @@ gantt
 
 | Sprint | Período | Objetivo | Status | Entregáveis |
 |--------|---------|----------|--------|-------------|
-| **Sprint 1** | 01/09 - 15/09 | [Objetivo principal da sprint] | 🟡 Em andamento | [Lista de entregáveis] |
-| **Sprint 2** | 16/09 - 30/09 | [Objetivo principal da sprint] | ⚪ Planejada | [Lista de entregáveis] |
+| **Sprint 1** | 01/09 - 15/09 | [Desenvolvimento da Documentação] | 🟡 Em andamento | [Lista de entregáveis] |
+| **Sprint 2** | 16/09 - 30/09 | [Desenvolvimento Back-End] | ⚪ Planejada | [Lista de entregáveis] |
 | **Sprint 3** | 01/10 - 15/10 | [Objetivo principal da sprint] | ⚪ Planejada | [Lista de entregáveis] |
 | **Sprint 4** | 16/10 - 30/10 | [Objetivo principal da sprint] | ⚪ Planejada | [Lista de entregáveis] |
 
