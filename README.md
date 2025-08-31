@@ -17,7 +17,7 @@
 
 ## Descrição do Desafio
 
-[Descreva aqui o problema ou desafio que o projeto pretende resolver. Explique o contexto, a necessidade identificada e os objetivos principais.]
+[Início de Projeto: Backroom terá sua intenção de criar programas customizáveis para empresas terem seu próprio sistema de manejamento local com, através de assinatura, suporte da equipe técnica Backroom]
 
 ## Backlog do Produto
 
@@ -44,32 +44,30 @@ gantt
     section Sprint 1
     Planejamento           :sprint1-plan, 2025-09-01, 2d
     Desenvolvimento        :sprint1-dev, after sprint1-plan, 12d
-    Testes e Revisão       :sprint1-test, after sprint1-dev, 1d
     section Sprint 2
     Planejamento           :sprint2-plan, 2025-09-16, 2d
     Desenvolvimento        :sprint2-dev, after sprint2-plan, 12d
-    Testes e Revisão       :sprint2-test, after sprint2-dev, 1d
     section Sprint 3
     Planejamento           :sprint3-plan, 2025-10-01, 2d
     Desenvolvimento        :sprint3-dev, after sprint3-plan, 12d
-    Testes e Revisão       :sprint3-test, after sprint3-dev, 1d
+    Testes e Revisão       :sprint3-test, after sprint3-dev, 3d
 ```
 
 ## Tabela Descritiva das Sprints
 
-| Sprint | Período | Objetivo | Status | Entregáveis |
-|--------|---------|----------|--------|-------------|
-| **Sprint 1** | 01/09 - 15/09 | [Desenvolvimento da Documentação] | 🟡 Em andamento | [Lista de entregáveis] |
-| **Sprint 2** | 16/09 - 30/09 | [Desenvolvimento Back-End] | ⚪ Planejada | [Lista de entregáveis] |
-| **Sprint 3** | 01/10 - 15/10 | [Objetivo principal da sprint] | ⚪ Planejada | [Lista de entregáveis] |
-| **Sprint 4** | 16/10 - 30/10 | [Objetivo principal da sprint] | ⚪ Planejada | [Lista de entregáveis] |
+| Sprint | Período | Objetivo | Status |
+|--------|---------|----------|--------|
+| **Sprint 1** | 01/09 - 15/09 | [Desenvolvimento da Documentação] | 🟡 Em andamento |
+| **Sprint 2** | 16/09 - 30/09 | [Desenvolvimento Back-End] | ⚪ Planejada |
+| **Sprint 3** | 01/10 - 15/10 | [Planejamento Fronto-End] | ⚪ Planejada |
+| **Sprint 4** | 16/10 - 30/10 | [Implementação IA/Testes] | ⚪ Planejada |
 
 ## Link para Documentação da Sprint
 
-- [📋 Sprint 1 - Documentação](./docs/sprint-1/README.md)
-- [📋 Sprint 2 - Documentação](./docs/sprint-2/README.md)
-- [📋 Sprint 3 - Documentação](./docs/sprint-3/README.md)
-- [📋 Sprint 4 - Documentação](./docs/sprint-4/README.md)
+- [📋 Sprint 1 - Documentação](link)
+- [📋 Sprint 2 - Documentação](link)
+- [📋 Sprint 3 - Documentação](link)
+- [📋 Sprint 4 - Documentação](link)
 
 ## Tecnologias Utilizadas
 
@@ -91,22 +89,10 @@ gantt
 ## Estrutura do Projeto
 
 ```
-nome-do-projeto/
+Backroom/
 │
-├── docs/                   # Documentação das sprints
-│   ├── sprint-1/
-│   ├── sprint-2/
-│   └── sprint-3/
-│
-├── src/                    # Código fonte
-│   ├── frontend/
-│   ├── backend/
-│   └── shared/
-│
-├── tests/                  # Testes automatizados
-├── scripts/                # Scripts de build/deploy
-├── config/                 # Arquivos de configuração
-└── README.md              # Este arquivo
+├──                   
+└──            
 ```
 
 ## Link para Documentação
