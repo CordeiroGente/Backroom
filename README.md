@@ -3,7 +3,7 @@
 
 ## 📑 Índice
 
-- [Descrição do Desafio](#descrição-do-desafio)|[Backlog do Produto](#backlog-do-produto)|[Cronograma de Evolução do Projeto](#cronograma-de-evolução-do-projeto)|[Tabela Descritiva das Sprints](#tabela-descritiva-das-sprints)|[Link para Documentação da Sprint](#link-para-documentação-da-sprint)|[Tecnologias Utilizadas](#tecnologias-utilizadas)|[Estrutura do Projeto](#estrutura-do-projeto)|[Link para Documentação](#link-para-documentação)|[Equipe](#equipe) -
+| [Desafio](#descrição-do-desafio) | [Backlog](#backlog-do-produto)|[Cronograma](#cronograma-de-evolução-do-projeto) | [Sprints](#tabela-descritiva-das-sprints) | [Tecnologias](#tecnologias-utilizadas) | [Estrutura](#estrutura-do-projeto) | [Documentação](#link-para-documentação) | [Equipe](#equipe) |
 
 ## Descrição do Desafio
 
