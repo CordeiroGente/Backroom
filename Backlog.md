@@ -25,7 +25,7 @@ Este repositório contém o backlog de desenvolvimento dos produtos Backroom, or
 
 #### Features em Desenvolvimento 🔄
 
-### 🎨 **Epic 2: UI/UX Enhancement*
+### 🎨 **Epic 2: UI/UX Enhancement**
 **Status**: Planejado
 
 #### Features Planejadas 📋
