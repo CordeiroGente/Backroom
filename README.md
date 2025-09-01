@@ -49,7 +49,7 @@ Mantenha o controle total dos seus dados com sistemas que rodam na sua própria 
 
 ## Backlog do Produto
 
-- [✔️] [**Epic:**](ex) 
+- [✔️] [**Epic do cliente**](ex) 
 
 ---
 
