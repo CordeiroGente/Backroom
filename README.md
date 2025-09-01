@@ -20,9 +20,28 @@
 
 ## Descrição do Desafio
 
-Backroom terá sua intenção de criar programas customizáveis para empresas terem seu próprio sistema de manejamento local com, através de assinatura, suporte da equipe técnica Backroom
+## Backroom
+### Sua empresa, seu sistema, sua identidade
 
-Muitas empresas se encontram presas a produtos de comunicação e produtividade, costumando trabalhar em muitas plataformas sem interação direta, aí que a proposta da Backroom entra,
+Transforme a gestão da sua empresa com soluções sob medida
+Na Backroom, acreditamos que cada empresa é única e merece um sistema de gestão que reflita exatamente suas necessidades. Chega de se adaptar a softwares genéricos que não conversam com sua realidade!
+
+## Por que escolher a Backroom?
+ - 🎯 Programas 100% Customizáveis
+Desenvolvemos sistemas de gestão local personalizados, focados em interfaces intuitivas e experiência do usuário excepcional. Cada funcionalidade é pensada especificamente para o seu negócio.
+ - 💻 Foco no Front-end
+Interface moderna, responsiva e fácil de usar. Seus colaboradores vão amar trabalhar com um sistema feito para eles. 
+ - 🛠️ Suporte Técnico Especializado
+Com nossa assinatura, você tem acesso direto à nossa equipe técnica experiente. Suporte contínuo, atualizações e melhorias constantes para garantir que seu sistema evolua junto com sua empresa.
+ - 🏢 Gestão Local Completa
+Mantenha o controle total dos seus dados com sistemas que rodam na sua própria infraestrutura, garantindo segurança e autonomia.
+
+## Como funciona?
+
+  Análise das suas necessidades - Além da necessidade, enxergamos o humano, com profissionais treinados os seus desejos facilmente se tornarão código.
+  Desenvolvimento personalizado - A partir de seus requisitos desenvolvemos o seu software personalizado.
+  Implementação e treinamento - Com profissionais treinados em comunicação, a sua empresa será ensinada a ter autonomia sobre seu programa.
+  Suporte contínuo - Caso deseje suporte direto por tempo indeterminado, oferecemos assinaturas para o suporte especializado.
 
 ---
 
@@ -48,9 +67,11 @@ gantt
     section Sprint 1
     Planejamento           :sprint1-plan, 2025-09-01, 2d
     Desenvolvimento        :sprint1-dev, after sprint1-plan, 12d
+    Descanso               :descanso1, after sprint1-dev, 1d
     section Sprint 2
     Planejamento           :sprint2-plan, 2025-09-16, 2d
     Desenvolvimento        :sprint2-dev, after sprint2-plan, 12d
+    Descanso               :descanso2, after sprint2-dev, 1d
     section Sprint 3
     Planejamento           :sprint3-plan, 2025-10-01, 2d
     Desenvolvimento        :sprint3-dev, after sprint3-plan, 12d
