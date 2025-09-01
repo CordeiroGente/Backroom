@@ -1,5 +1,5 @@
 
-# Backroom
+# ⏲ Backroom
 
 <div align="center">
   <img src="https://github.com/CordeiroGente/Imagens/blob/main/Logo%20Completo%20Backroom.png?raw=true" width="600px">
@@ -17,23 +17,20 @@
 
 ## Descrição do Desafio
 
-[Início de Projeto: Backroom terá sua intenção de criar programas customizáveis para empresas terem seu próprio sistema de manejamento local com, através de assinatura, suporte da equipe técnica Backroom]
+Backroom terá sua intenção de criar programas customizáveis para empresas terem seu próprio sistema de manejamento local com, através de assinatura, suporte da equipe técnica Backroom
+
+Muitas empresas se encontram presas a produtos de comunicação e produtividade, costumando trabalhar em muitas plataformas sem interação direta, aí que a proposta da Backroom entra,
 
 ## Backlog do Produto
 
-- [ ] **Epic 1:** [Nome do Epic]
-  - [ ] User Story 1.1: [Descrição]
-  - [ ] User Story 1.2: [Descrição]
-  - [ ] User Story 1.3: [Descrição]
+- [✔️] **Epic 1:** [Funcionalidades]
+  - [❌] História do Usuário 1.1: [Descrição]
+  - [❌] UHistória do Usuário 1.2: [Descrição]
+  - [❌] História do Usuário 1.3: [Descrição]
 
-- [ ] **Epic 2:** [Nome do Epic]
-  - [ ] User Story 2.1: [Descrição]
-  - [ ] User Story 2.2: [Descrição]
-
-- [ ] **Epic 3:** [Nome do Epic]
-  - [ ] User Story 3.1: [Descrição]
-  - [ ] User Story 3.2: [Descrição]
-  - [ ] User Story 3.3: [Descrição]
+- [✔️] **Epic 2:** [Front-End]
+  - [❌] História do Usuário 2.1: [Descrição]
+  - [❌] História do Usuário 2.2: [Descrição]
 
 ## Cronograma de Evolução do Projeto
 
