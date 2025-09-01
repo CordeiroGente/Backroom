@@ -14,11 +14,13 @@
 
 ## 📑 Índice
 
-| [Desafio](#descrição-do-desafio) | [Backlog](#backlog-do-produto)|[Cronograma](#cronograma-de-evolução-do-projeto) | [Sprints](#tabela-descritiva-das-sprints) | [Tecnologias](#tecnologias-utilizadas) | [Estrutura](#estrutura-do-projeto) | [Documentação](#link-para-documentação) | [Equipe](#-Equipe) | [Contato](#-Contato) |
+| [Desafio](#descrição-do-desafio) | [Backlog](#backlog-do-produto) | [Cronograma](#-cronograma-das-sprints) | [Sprints](#tabela-descritiva-das-sprints) | [Tecnologias](#tecnologias-utilizadas) | [Estrutura](#estrutura-do-projeto) | [Documentação](#link-para-documentação) | [Equipe](#-Equipe) | [Contato](#-Contato) |
 
 ---
 
 ## Descrição do Desafio
+
+Este é um projeto PIM onde criamos uma empresa fictícia para treinarmos nossa especialização para padronização de: Documentação, Propaganda própria, Gráficos...
 
 ## Backroom
 ### Sua empresa, seu sistema, sua identidade
@@ -47,18 +49,11 @@ Mantenha o controle total dos seus dados com sistemas que rodam na sua própria 
 
 ## Backlog do Produto
 
-- [✔️] **Epic 1:** [Funcionalidades]
-  - [❌] História do Usuário 1.1: [Descrição]
-  - [❌] UHistória do Usuário 1.2: [Descrição]
-  - [❌] História do Usuário 1.3: [Descrição]
-
-- [✔️] **Epic 2:** [Front-End]
-  - [❌] História do Usuário 2.1: [Descrição]
-  - [❌] História do Usuário 2.2: [Descrição]
+- [✔️] [**Epic:**](ex) 
 
 ---
 
-## ⏰ Cronograma de Evolução do Projeto
+## ⏰ Cronograma das Sprints
 
 ```mermaid
 gantt
