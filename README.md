@@ -14,7 +14,7 @@
 
 ## 📑 Índice
 
-| [Desafio](#descrição-do-desafio) | [Backlog](#backlog-do-produto) | [Cronograma](#-cronograma-das-sprints) | [Sprints](#tabela-descritiva-das-sprints) | [Tecnologias](#tecnologias-utilizadas) | [Estrutura](#estrutura-do-projeto) | [Documentação](#link-para-documentação) | [Equipe](#-Equipe) | [Contato](#-Contato) |
+| [Empresa](#backroom) | [Backlog](#backlog-do-produto) | [Cronograma](#-cronograma-das-sprints) | [Sprints](#tabela-descritiva-das-sprints) | [Tecnologias](#tecnologias-utilizadas) | [Estrutura](#estrutura-do-projeto) | [Documentação](#link-para-documentação) | [Equipe](#-Equipe) | [Contato](#-Contato) |
 
 ---
 
