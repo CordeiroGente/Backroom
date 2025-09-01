@@ -10,16 +10,21 @@
   ![Versão](https://img.shields.io/badge/versão-0.0.1-brightgreen)
 </div>
 
+---
 
 ## 📑 Índice
 
 | [Desafio](#descrição-do-desafio) | [Backlog](#backlog-do-produto)|[Cronograma](#cronograma-de-evolução-do-projeto) | [Sprints](#tabela-descritiva-das-sprints) | [Tecnologias](#tecnologias-utilizadas) | [Estrutura](#estrutura-do-projeto) | [Documentação](#link-para-documentação) | [Equipe](#equipe) |
+
+---
 
 ## Descrição do Desafio
 
 Backroom terá sua intenção de criar programas customizáveis para empresas terem seu próprio sistema de manejamento local com, através de assinatura, suporte da equipe técnica Backroom
 
 Muitas empresas se encontram presas a produtos de comunicação e produtividade, costumando trabalhar em muitas plataformas sem interação direta, aí que a proposta da Backroom entra,
+
+---
 
 ## Backlog do Produto
 
@@ -31,6 +36,8 @@ Muitas empresas se encontram presas a produtos de comunicação e produtividade,
 - [✔️] **Epic 2:** [Front-End]
   - [❌] História do Usuário 2.1: [Descrição]
   - [❌] História do Usuário 2.2: [Descrição]
+
+---
 
 ## Cronograma de Evolução do Projeto
 
@@ -50,6 +57,8 @@ gantt
     Testes e Revisão       :sprint3-test, after sprint3-dev, 3d
 ```
 
+---
+
 ## Tabela Descritiva das Sprints
 
 | Sprint | Período | Objetivo | Status |
@@ -66,7 +75,10 @@ gantt
 - [📋 Sprint 3 - Documentação](link)
 - [📋 Sprint 4 - Documentação](link)
 
+---
+
 ## Tecnologias Utilizadas
+
 
 ### Frontend
 - [Framework/Biblioteca] - v[X.X.X]
@@ -83,6 +95,8 @@ gantt
 - [Ferramenta 1] - v[X.X.X]
 - [Ferramenta 2] - v[X.X.X]
 
+---
+
 ## Estrutura do Projeto
 
 ```
@@ -92,16 +106,34 @@ Backroom/
 └──            
 ```
 
+---
+
 ## Link para Documentação
 
 📚 **Documentação Completa:** [Link para Wiki/Docs](./docs/README.md)
 
-## Equipe
+---
 
-| Nome | Função | GitHub | LinkedIn |
-|------|--------|--------|----------|
-| [Nome 1] | Product Owner | [@usuario1](https://github.com/usuario1) | [LinkedIn](https://linkedin.com/in/perfil1) |
-| [Nome 2] | Scrum Master | [@usuario2](https://github.com/usuario2) | [LinkedIn](https://linkedin.com/in/perfil2) |
-| [Nome 3] | Tech Lead | [@usuario3](https://github.com/usuario3) | [LinkedIn](https://linkedin.com/in/perfil3) |
-| [Nome 4] | Desenvolvedor Frontend | [@usuario4](https://github.com/usuario4) | [LinkedIn](https://linkedin.com/in/perfil4) |
-| [Nome 5] | Desenvolvedor Backend | [@usuario5](https://github.com/usuario5) | [LinkedIn](https://linkedin.com/in/perfil5) |
+## 👥 Equipe
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Project Owner"><br /><b>[Pedro H.P. Cordeiro]</b><br /><i>Project Owner</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Cientista de Dados"><br /><b>[Cordeiro H.P. Perrenchelle]</b><br /><i>Cientista de Dados</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Designer"><br /><b>[Henrique Pedro P.C.]</b><br /><i>UX/UI Designer</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Desenvolvedor"><br /><b>[Perrenchelle C.H. Pedro]</b><br /><i>Desenvolvedor Pricipal</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Scrum Master"><br /><b>[Henrique P.C. Pedro]</b><br /><i>Scrum Master</i></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 📞 Contato
+
+- Email: BackroomA@gmail.com
+- Website: [www.Backroom.com.br](ex)
+- Instagram: [@Backroom](ex)
+
+---
