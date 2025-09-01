@@ -2,7 +2,7 @@
 # ⏲ Backroom
 
 <div align="center">
-  <img src="https://github.com/CordeiroGente/Imagens/blob/main/Logo%20Completo%20Backroom.png?raw=true" width="800px">
+  <img src="https://github.com/CordeiroGente/Imagens/blob/main/Logo%20Completo%20Backroom.png?raw=true" width="600px">
   
   ### Organizando o seu tempo
   
