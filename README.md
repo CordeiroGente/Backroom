@@ -123,7 +123,7 @@ Backroom/
       <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Cientista de Dados"><br /><b>[Cordeiro H.P. Perrenchelle]</b><br /><i>Cientista de Dados</i></td>
       <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Designer"><br /><b>[Henrique Pedro P.C.]</b><br /><i>UX/UI Designer</i></td>
       <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Desenvolvedor"><br /><b>[Perrenchelle C.H. Pedro]</b><br /><i>Desenvolvedor Pricipal</i></td>
-      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Scrum Master"><br /><b>[Henrique P.C. Pedro]</b><br /><i>Scrum Master</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Scrum Master"><br /><b>[Henrique P.C. Perrenchelle]</b><br /><i>Scrum Master</i></td>
     </tr>
   </table>
 </div>
