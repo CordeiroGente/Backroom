@@ -110,7 +110,7 @@ Backroom/
 
 ## Link para Documentação
 
-📚 **Documentação Completa:** [Link para Wiki/Docs](./docs/README.md)
+📚 **Documentação Completa:**(ex)
 
 ---
 
