@@ -14,7 +14,7 @@
 
 ## 📑 Índice
 
-| [Empresa](#backroom) | [Backlog](#backlog-do-produto) | [Cronograma](#-cronograma-das-sprints) | [Sprints](#tabela-descritiva-das-sprints) | [Tecnologias](#tecnologias-utilizadas) | [Estrutura](#estrutura-do-projeto) | [Documentação](#link-para-documentação) | [Equipe](#-Equipe) | [Contato](#-Contato) |
+| [Empresa](#backroom) | [Equipe](#-Equipe) | [Backlog](#backlog-do-produto) | [Cronograma](#-cronograma-das-sprints) | [Sprints](#tabela-descritiva-das-sprints) | [Tecnologias](#tecnologias-utilizadas) | [Estrutura](#estrutura-do-projeto) | [Documentação](#link-para-documentação) | [Contato](#-Contato) |
 
 ---
 
@@ -45,11 +45,27 @@ Mantenha o controle total dos seus dados com sistemas que rodam na sua própria 
   Implementação e treinamento - Com profissionais treinados em comunicação, a sua empresa será ensinada a ter autonomia sobre seu programa.
   Suporte contínuo - Caso deseje suporte direto por tempo indeterminado, oferecemos assinaturas para o suporte especializado.
 
+  ---
+
+  ## 👥 Equipe
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Project Owner"><br /><b>[Pedro H.P. Cordeiro]</b><br /><i>Project Owner</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Cientista de Dados"><br /><b>[Cordeiro H.P. Perrenchelle]</b><br /><i>Cientista de Dados</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Designer"><br /><b>[Henrique Pedro P.C.]</b><br /><i>UX/UI Designer</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Desenvolvedor"><br /><b>[Perrenchelle C.H. Pedro]</b><br /><i>Desenvolvedor Pricipal</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Scrum Master"><br /><b>[Henrique P.C. Perrenchelle]</b><br /><i>Scrum Master</i></td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 ## Backlog do Produto
 
-- [✔️] [**Epic do cliente**](ex) 
+- [✔️] [**Epic do cliente**](https://github.com/CordeiroGente/Backroom/blob/main/Backlog.md) 
 
 ---
 
@@ -127,22 +143,6 @@ Backroom/
 ## Link para Documentação
 
 📚 [**Documentação Completa**](ex)
-
----
-
-## 👥 Equipe
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Project Owner"><br /><b>[Pedro H.P. Cordeiro]</b><br /><i>Project Owner</i></td>
-      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Cientista de Dados"><br /><b>[Cordeiro H.P. Perrenchelle]</b><br /><i>Cientista de Dados</i></td>
-      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Designer"><br /><b>[Henrique Pedro P.C.]</b><br /><i>UX/UI Designer</i></td>
-      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Desenvolvedor"><br /><b>[Perrenchelle C.H. Pedro]</b><br /><i>Desenvolvedor Pricipal</i></td>
-      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Scrum Master"><br /><b>[Henrique P.C. Perrenchelle]</b><br /><i>Scrum Master</i></td>
-    </tr>
-  </table>
-</div>
 
 ---
 
