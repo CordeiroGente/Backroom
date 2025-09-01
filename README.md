@@ -39,7 +39,7 @@ Muitas empresas se encontram presas a produtos de comunicação e produtividade,
 
 ---
 
-## Cronograma de Evolução do Projeto
+## ⏰ Cronograma de Evolução do Projeto
 
 ```mermaid
 gantt
@@ -85,7 +85,7 @@ gantt
 - [Tecnologia 2] - v[X.X.X]
 
 ### Backend
-- [Linguagem/Framework] - v[X.X.X]
+- [Linguagem/Framework] - C# v[X.X.X]
 - [Tecnologia 2] - v[X.X.X]
 
 ### Banco de Dados
@@ -110,11 +110,11 @@ Backroom/
 
 ## Link para Documentação
 
-📚 [**Documentação Completa:**](ex)
+📚 [**Documentação Completa**](ex)
 
 ---
 
-##👥 Equipe
+## 👥 Equipe
 
 <div align="center">
   <table>
