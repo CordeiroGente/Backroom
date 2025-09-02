@@ -102,10 +102,10 @@ gantt
 
 ## Link para Documentação da Sprint
 
-- [📋 Sprint 1 - Documentação](link)
-- [📋 Sprint 2 - Documentação](link)
-- [📋 Sprint 3 - Documentação](link)
-- [📋 Sprint 4 - Documentação](link)
+- [📋 Sprint 1 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/Sprint%201.md)
+- [📋 Sprint 2 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%202.md)
+- [📋 Sprint 3 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%203.md)
+- [📋 Sprint 4 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%204.md)
 
 ---
 
@@ -142,7 +142,7 @@ Backroom/
 
 ## Diagramas
 
-📚 [**Diagramas**](ex)
+📚 [**Diagramas**](https://github.com/CordeiroGente/Backroom/tree/main/Documenta%C3%A7%C3%A3o/Diagramas)
 
 ---
 
