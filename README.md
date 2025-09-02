@@ -140,9 +140,9 @@ Backroom/
 
 ---
 
-## Link para Documentação
+## Diagramas
 
-📚 [**Documentação Completa**](ex)
+📚 [**Diagramas**](ex)
 
 ---
 
