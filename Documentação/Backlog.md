@@ -11,7 +11,9 @@ Este repositório contém o backlog de desenvolvimento dos produtos Backroom, or
 
 Empresas estão pagando o preço da desorganização digital
 Você sabia que empresas perdem até 30% da produtividade por falta de gestão estruturada? Um exemplo sendo a necessidade de equipe de alterna entre diversos apps desconexos, como: Teams para organização de tarefas, Whatsapp para mensagens e Meet para videochamadas
+
 Os números são gritantes, empresas tem um problema que ainda não tem solução
+
 📊 44% das empresas relatam atrasos em projetos por falhas de comunicação
 💰 18% perderam vendas devido à falta de alinhamento interno
 ⏰ 30% do tempo da equipe é desperdiçado com retrabalho e busca por informações
