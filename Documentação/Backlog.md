@@ -14,9 +14,9 @@ Você sabia que empresas perdem até 30% da produtividade por falta de gestão e
 
 Os números são gritantes, empresas tem um problema que ainda não tem solução
 
-📊 44% das empresas relatam atrasos em projetos por falhas de comunicação
-💰 18% perderam vendas devido à falta de alinhamento interno
-⏰ 30% do tempo da equipe é desperdiçado com retrabalho e busca por informações
+- 📊 44% das empresas relatam atrasos em projetos por falhas de comunicação
+- 💰 18% perderam vendas devido à falta de alinhamento interno
+- ⏰ 30% do tempo da equipe é desperdiçado com retrabalho e busca por informações
 
 Assim nasceu a ideia da Backroom, pela necessidade. Nós oferecemos uma solução simples, desenvolvimento personalizado. Transforme as estatísticas apresentadas em coisas do passado.
 
