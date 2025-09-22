@@ -1,3 +1,5 @@
+### Diagrama de Casos de Uso
+
 ```mermaid
 graph TD
     %% Atores
@@ -24,14 +26,14 @@ graph TD
     Visitante --- UC2
     Visitante --- UC3
     Visitante --- UC4
-
+    
     Cliente --- UC5
     Cliente --- UC6
     Cliente --- UC7
     Cliente --- UC8
-
+    
     Administrador --- UC9
     Administrador --- UC10
-
+    
     UC4 ..> UC5 : "<<include>>"
 ```
