@@ -1,3 +1,4 @@
+``mermaid
 ---
 title: Diagrama de Casos de Uso - Plataforma Backroom
 ---
@@ -36,3 +37,4 @@ graph TD
     Administrador --- UC10
 
     UC4 ..> UC5 : "<<include>>"
+```
