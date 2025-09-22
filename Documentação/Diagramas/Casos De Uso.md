@@ -1,4 +1,3 @@
-```mermaid
 graph TD
     Visitante
     Cliente
@@ -15,8 +14,16 @@ graph TD
         UC8("Acompanhar Status do Projeto")
         UC9("Analisar Solicitações")
         UC10("Gerar Orçamento")
+
+        %% Links Invisíveis para forçar a verticalização
+        UC5 ~~~ UC6
+        UC6 ~~~ UC7
+        UC7 ~~~ UC8
+
+        UC9 ~~~ UC10
     end
 
+    %% Relacionamentos Visíveis
     Visitante --- UC1
     Visitante --- UC2
     Visitante --- UC3
@@ -31,4 +38,3 @@ graph TD
     Administrador --- UC10
     
     UC4 -.->|include| UC5
-```
