@@ -4,17 +4,18 @@
 classDiagram
     direction TB
 
-    abstract class Usuario {
-        # int id
-        # String email
-        # String nome
-        # String senha
+    class Usuario {
+        <<Abstract>>
+        # id: int
+        # email: String
+        # nome: String
+        # senha: String
         + login()
         + logout()
     }
 
     class Cliente {
-        - String empresa
+        - empresa: String
         + solicitarOrcamento()
         + visualizarProjetos()
     }
@@ -25,27 +26,27 @@ classDiagram
     }
 
     class Projeto {
-        - int id
-        - String nome
-        - String descricao
-        - String status
+        - id: int
+        - nome: String
+        - descricao: String
+        - status: String
         + atualizarStatus()
         + adicionarMensagem()
     }
 
     class Orcamento {
-        - int id
-        - String descricaoServicos
-        - float valor
-        - String status
+        - id: int
+        - descricaoServicos: String
+        - valor: float
+        - status: String
         + aprovar()
         + rejeitar()
     }
 
     class Mensagem {
-        - int id
-        - String conteudo
-        - DateTime dataEnvio
+        - id: int
+        - conteudo: String
+        - dataEnvio: DateTime
     }
 
     Usuario <|-- Cliente
