@@ -8,7 +8,7 @@
   
   ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
   ![Versão](https://img.shields.io/badge/versão-0.0.1-brightgreen)
-</div>
+</div> 
 
 ---
 
