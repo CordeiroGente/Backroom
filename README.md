@@ -131,12 +131,23 @@ gantt
 
 ## Estrutura do Projeto
 
-```
+``
 Backroom/
 │
-├──                   
-└──            
-```
+├── Documentação
+│   ├── Backlog.md
+│   ├── Diagramas
+│   │   ├── Casos De Uso.md
+│   │   ├── Diagrama de Classe.md
+│   │   └── Diagrama de Sequência.md
+│   └── Sprints
+│       ├── Sprint 1.md
+│       ├── sprint 2.md
+│       ├── sprint 3.md
+│       └── sprint 4.md
+│
+└── README.md
+``
 
 ---
 
