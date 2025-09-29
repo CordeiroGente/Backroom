@@ -131,7 +131,7 @@ gantt
 
 ## Estrutura do Projeto
 
-``
+```
 Backroom/
 │
 ├── Documentação
@@ -147,7 +147,7 @@ Backroom/
 │       └── sprint 4.md
 │
 └── README.md
-``
+```
 
 ---
 
