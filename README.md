@@ -111,6 +111,10 @@ gantt
 
 ## Tecnologias Utilizadas
 
+### Documentação
+- [README.md]
+- [Mermaid]
+
 
 ### Frontend
 - [Framework/Biblioteca] - v[X.X.X]
