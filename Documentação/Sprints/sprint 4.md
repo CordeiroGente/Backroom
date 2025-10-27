@@ -1,7 +1,5 @@
 # 🏁 Sprint 4: MVP - Gerenciamento (Desktop + Mobile)
 
-**Status:** Concluído ✅
-
 ## 📅 Informações da Sprint
 
 - **Período**: 04/10/2025 - 14/10/2025 (11 dias)
