@@ -1,24 +1,34 @@
-###Diagrama de Sequência
+
+# Diagrama de Sequência Desktop - Exemplo
 
 ```mermaid
 sequenceDiagram
-    actor C as Cliente
-    participant S as Sistema
-    participant OC as OrcamentoController
-    participant O as Orcamento
-    participant N as ServicoDeNotificacao
+    actor Func as Funcionário
+    participant AppFunc as App Desktop (Func.)
+    participant Servidor as Servidor (Backroom)
+    participant BD as Banco de Dados
+    participant AppAdmin as App Desktop (Admin)
+    actor Admin as Administrador
 
-    C->>S: Clica em "Solicitar Orçamento"
-    S-->>C: Exibe formulário de orçamento
+    Func->>AppFunc: Preenche e envia "Solicitar Abertura de Chamado"
+    AppFunc->>Servidor: POST /api/solicitacao (dados)
     
-    C->>S: Preenche e envia formulário com dados
-    S->>OC: criarOrcamento(dados)
+    Servidor->>BD: INSERT INTO solicitacoes (dados)
+    BD-->>Servidor: Solicitacao (ID: 123) criada
     
-    OC->>O: new Orcamento(dados)
-    O-->>OC: instância de Orçamento
+    Servidor-->>AppFunc: "Solicitação enviada para análise"
     
-    OC-->>S: orcamentoCriado(id)
-    S->>N: notificarAdmin("Novo orçamento solicitado: " + id)
+    note right of Servidor: O Servidor envia um alerta em tempo real
+    Servidor->>AppAdmin: PUSH_NOTIFY: Nova Solicitação (ID: 123)
     
-    S-->>C: Responde "Solicitação enviada com sucesso!"
+    Admin->>AppAdmin: Vê notificação e clica em "Aceitar Solicitação"
+    AppAdmin->>Servidor: PUT /api/chamado/123/aceitar
+    
+    Servidor->>BD: UPDATE chamados SET status='Aberto'
+    BD-->>Servidor: Chamado 123 atualizado
+    
+    Servidor-->>AppAdmin: "Chamado (ID: 123) aceito com sucesso!"
+    
+    note left of Servidor: O Servidor notifica o funcionário sobre a abertura
+    Servidor->>AppFunc: PUSH_NOTIFY: Seu chamado (ID: 123) foi aberto!
 ```
