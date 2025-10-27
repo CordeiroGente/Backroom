@@ -1,4 +1,4 @@
-# Diagrama de Caso de Uso Web
+# Diagrama de Caso de Uso Web - Padrão
 
 - A seguir um diagrama que demonstra como um visitante, um cliente/usuário e como um administrador interagem com o sistema web de assistência.
 
@@ -121,4 +121,58 @@ graph TD
 
 ```
 
-# Casos de Uso Mobile
+### Diagrama de Casos de Uso Mobile - Gerenciamento
+
+- A seguir um Diagrama que demonstra como O Administrador iria ter acesso ao sistema desktop pelo celular, garantindo mobilidade caso ele seja um gestor de diversas empresas.
+
+# Atores
+- **Administrador**: O app mobile, sendo exclusivo para administradores garante Gerenciamento à distância
+
+
+```mermaid
+graph TD
+    %% Ator
+    Administrador("Administrador (Cliente)")
+
+    %% Sistema e Casos de Uso
+    subgraph "Sistema de Chamados (Mobile)"
+        direction TB
+        
+        %% UCs Gerais
+        UC_Login_Mob("Realizar Login Seguro")
+        UC_Notif("Receber Notificações Push")
+
+        %% UCs de Gerenciamento
+        UC_Mob1("Visualizar Todos Chamados")
+        UC_Mob2("Aceitar Solicitação de Chamado")
+        UC_Mob3("Criar Chamado Diretamente")
+        UC_Mob4("Marcar Chamado como Concluído")
+        UC_Mob5("Excluir Chamado")
+        
+
+        %% Links Invisíveis para forçar a verticalização
+        UC_Notif ~~~ UC_Mob1
+        UC_Mob1 ~~~ UC_Mob2
+        UC_Mob2 ~~~ UC_Mob3
+        UC_Mob3 ~~~ UC_Mob4
+        UC_Mob4 ~~~ UC_Mob5
+    end
+
+    %% Relacionamentos Ator -> Casos de Uso
+    Administrador --- UC_Login_Mob
+    Administrador --- UC_Notif
+    Administrador --- UC_Mob1
+    Administrador --- UC_Mob2
+    Administrador --- UC_Mob3
+    Administrador --- UC_Mob4
+    Administrador --- UC_Mob5
+    
+    
+    %% Relações |include| (de UCs para Login)
+    UC_Notif -.->|include| UC_Login_Mob
+    UC_Mob1 -.->|include| UC_Login_Mob
+    UC_Mob2 -.->|include| UC_Login_Mob
+    UC_Mob3 -.->|include| UC_Login_Mob
+    UC_Mob4 -.->|include| UC_Login_Mob
+    UC_Mob5 -.->|include| UC_Login_Mob
+```
