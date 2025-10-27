@@ -50,7 +50,7 @@ graph TD
     UC4 -.->|include| UC5
 ```
 
-### Diagrama de Casos de Uso Desktop - Exemplo
+# Diagrama de Casos de Uso Desktop - Exemplo
 
 - A seguir um Diagrama que demonstra como Funcionário e Administrador iriam reagir em um sistema modular backroom criado para a resolução de chamados da empresa cliente.
 
