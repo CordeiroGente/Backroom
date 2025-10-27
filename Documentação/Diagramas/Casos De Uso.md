@@ -1,6 +1,6 @@
 # Diagrama de Caso de Uso Web
 
-- A seguir diagrama demonstra como um visitante, um cliente/usuário e como um administrador interagem com o sistema web de assistência.
+- A seguir um diagrama que demonstra como um visitante, um cliente/usuário e como um administrador interagem com o sistema web de assistência.
 
 ### Atores
 - **Visitante**: Um não cliente interessado nos serviços da Backroom
@@ -50,11 +50,13 @@ graph TD
     UC4 -.->|include| UC5
 ```
 
-# Casos de Uso Desktop
-
 ### Diagrama de Casos de Uso Desktop - Exemplo
 
-### Diagrama de Casos de Uso (App Desktop - Help Desk)
+- A seguir um Diagrama que demonstra como Funcionário e Administrador iriam reagir em um sistema modular backroom criado para a resolução de chamados da empresa cliente.
+
+### Atores
+- **Funcionários**: Respondem a chamados e solicitam novos
+- **Administradores**: Manejam o sistema.
 
 ```mermaid
 graph TD
@@ -71,15 +73,16 @@ graph TD
 
         %% UCs do Funcionário
         UC_F1("Solicitar Abertura de Chamado")
-        UC_F2("Responder Chamado")
-        UC_F3("Visualizar Meus Chamados")
+        UC_F2("Visualizar Chamado")
+        UC_F3("Resolver Chamados")
         
         %% UCs do Administrador
         UC_A1("Aceitar Solicitação de Chamado")
         UC_A2("Criar Chamado Diretamente")
         UC_A3("Marcar Chamado como Concluído")
         UC_A4("Excluir Chamado")
-        UC_A5("Visualizar Todos Chamados")
+        UC_A5("Resolver Chamados")
+        UC_A6("Manejamento de Contas")
 
         %% Links Invisíveis para forçar a verticalização
         UC_F1 ~~~ UC_F2
@@ -103,6 +106,7 @@ graph TD
     Administrador --- UC_A3
     Administrador --- UC_A4
     Administrador --- UC_A5
+    Administrador --- UC_A6
     
     %% Relações |include| (de UCs para Login)
     UC_F1 -.->|include| UC_Login
@@ -113,6 +117,8 @@ graph TD
     UC_A3 -.->|include| UC_Login
     UC_A4 -.->|include| UC_Login
     UC_A5 -.->|include| UC_Login
+    UC_A6 -.->|include| UC_Login
+
 ```
 
-# Casos de Uso Web
+# Casos de Uso Mobile
