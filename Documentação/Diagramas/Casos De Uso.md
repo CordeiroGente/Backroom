@@ -121,11 +121,11 @@ graph TD
 
 ```
 
-### Diagrama de Casos de Uso Mobile - Gerenciamento
+# Diagrama de Casos de Uso Mobile - Gerenciamento
 
 - A seguir um Diagrama que demonstra como O Administrador iria ter acesso ao sistema desktop pelo celular, garantindo mobilidade caso ele seja um gestor de diversas empresas.
 
-# Atores
+### Atores
 - **Administrador**: O app mobile, sendo exclusivo para administradores garante Gerenciamento à distância
 
 
