@@ -7,7 +7,7 @@
   ### Organizando o seu tempo
   
   ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-  ![Versão](https://img.shields.io/badge/versão-0.0.1-brightgreen)
+  ![Versão](https://img.shields.io/badge/versão-1.0-brightgreen)
 </div> 
 
 ---
