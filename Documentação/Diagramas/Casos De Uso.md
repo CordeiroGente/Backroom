@@ -52,4 +52,51 @@ graph TD
 
 # Casos de Uso Desktop
 
+```mermaid
+graph TD
+    %% Atores
+    F["👤 Funcionário da<br/>Empresa Cliente"]
+    A["👨‍💼 Administrador da<br/>Empresa Cliente"]
+    
+    %% Casos de Uso do Funcionário
+    UC1["📝 Solicitar Abertura<br/>de Chamado"]
+    UC2["💬 Responder Chamado"]
+    UC3["👁️ Visualizar Chamados"]
+    
+    %% Casos de Uso do Administrador
+    UC4["✅ Aceitar Solicitação<br/>de Chamado"]
+    UC5["🆕 Criar Novo Chamado"]
+    UC6["✔️ Marcar Chamado<br/>como Concluído"]
+    UC7["🗑️ Deletar Chamado"]
+    UC8["📊 Gerenciar Sistema"]
+    
+    %% Relacionamentos do Funcionário
+    F --> UC1
+    F --> UC2
+    F --> UC3
+    
+    %% Relacionamentos do Administrador  
+    A --> UC4
+    A --> UC5
+    A --> UC6
+    A --> UC7
+    A --> UC8
+    A --> UC3
+    
+    %% Relacionamentos Include/Extend
+    UC1 -.->|include| UC3
+    UC2 -.->|include| UC3
+    UC4 -.->|include| UC3
+    UC5 -.->|include| UC3
+    UC6 -.->|include| UC3
+    
+    %% Estilo dos elementos
+    classDef actor fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef usecase fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef system fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    
+    class F,A actor
+    class UC1,UC2,UC3,UC4,UC5,UC6,UC7,UC8 usecase
+```
+
 # Casos de Uso Web
