@@ -52,43 +52,70 @@ graph TD
 
 # Casos de Uso Desktop
 
-```Mermaid
-graph TD
-    Funcionario
-    Administrador
+### Diagrama de Casos de Uso Desktop - Exemplo
 
-    subgraph "Sistema de Chamados Desktop"
-        UC1("Solicitar abertura de chamado")
-        UC2("Responder chamado")
-        UC3("Visualizar chamados")
-        UC4("Aceitar solicitação de chamado")
-        UC5("Criar novo chamado")
-        UC6("Marcar chamado como concluído")
-        UC7("Deletar chamado")
+```mermaid
+graph TD
+    %% Atores
+    Funcionario("Funcionário (Cliente)")
+    Administrador("Administrador (Cliente)")
+
+    %% Sistema e Casos de Uso
+    subgraph "Sistema de Chamados (Desktop)"
+        direction TB
         
-        %% Verticalização via links invisíveis
-        UC2 ~~~ UC3
-        UC4 ~~~ UC5
-        UC5 ~~~ UC6
-        UC6 ~~~ UC7
+        %% UCs Gerais
+        UC_Login("Realizar Login")
+
+        %% UCs do Funcionário
+        UC_F1("Solicitar Abertura de Chamado")
+        UC_F2("Responder Chamado")
+        UC_F3("Visualizar Meus Chamados")
+        
+        %% UCs do Administrador
+        UC_A1("Aceitar Solicitação de Chamado")
+        UC_A2("Criar Chamado Diretamente")
+        UC_A3("Marcar Chamado como Concluído")
+        UC_A4("Excluir Chamado")
+        UC_A5("Visualizar Todos Chamados")
+
+        %% Links Invisíveis para forçar a verticalização
+        UC_F1 ~~~ UC_F2
+        UC_F2 ~~~ UC_F3
+        
+        UC_A1 ~~~ UC_A2
+        UC_A2 ~~~ UC_A3
+        UC_A3 ~~~ UC_A4
+        UC_A4 ~~~ UC_A5
     end
 
-    %% Relacionamentos Visíveis
-    Funcionario --- UC1
-    Funcionario --- UC2
-    Funcionario --- UC3
+    %% Relacionamentos
+    
+    %% Relacionamentos Funcionário
+    Funcionario --- UC_Login
+    Funcionario --- UC_F1
+    Funcionario --- UC_F2
+    Funcionario --- UC_F3
+    
+    %% Relacionamentos Administrador
+    Administrador --- UC_Login
+    Administrador --- UC_A1
+    Administrador --- UC_A2
+    Administrador --- UC_A3
+    Administrador --- UC_A4
+    Administrador --- UC_A5
+    
+    %% Relações entre UCs (Ex: precisa estar logado)
+    UC_F1 ..> UC_Login : "<<include>>"
+    UC_F2 ..> UC_Login : "<<include>>"
+    UC_F3 ..> UC_Login : "<<include>>"
+    UC_A1 ..> UC_Login : "<<include>>"
+    UC_A2 ..> UC_Login : "<<include>>"
+    UC_A3 ..> UC_Login : "<<include>>"
+    UC_A4 ..> UC_Login : "<<include>>"
+    UC_A5 ..> UC_Login : "<<include>>"
 
-    Administrador --- UC4
-    Administrador --- UC5
-    Administrador --- UC6
-    Administrador --- UC7
-    Administrador --- UC3
-
-    UC1 -.->|include| UC3
-    UC2 -.->|include| UC3
-    UC4 -.->|include| UC3
-    UC5 -.->|include| UC3
-    UC6 -.->|include| UC3
+```
 ```
 
 # Casos de Uso Web
