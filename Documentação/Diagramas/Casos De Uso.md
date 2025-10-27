@@ -39,4 +39,3 @@ graph TD
     Administrador --- UC10
     
     UC4 -.->|include| UC5
-    ```
