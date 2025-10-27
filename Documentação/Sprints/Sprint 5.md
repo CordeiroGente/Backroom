@@ -1,7 +1,5 @@
 # 🏁 Sprint 5: Funcionalidades Avançadas (Should-Haves)
 
-**Status:** Concluído ✅
-
 ## 📅 Informações da Sprint
 
 - **Período**: 15/10/2025 - 25/10/2025 (11 dias)
