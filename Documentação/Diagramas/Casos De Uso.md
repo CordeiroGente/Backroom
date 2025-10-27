@@ -54,6 +54,8 @@ graph TD
 
 ### Diagrama de Casos de Uso Desktop - Exemplo
 
+### Diagrama de Casos de Uso (App Desktop - Help Desk)
+
 ```mermaid
 graph TD
     %% Atores
@@ -89,15 +91,12 @@ graph TD
         UC_A4 ~~~ UC_A5
     end
 
-    %% Relacionamentos
-    
-    %% Relacionamentos Funcionário
+    %% Relacionamentos Atores -> Casos de Uso
     Funcionario --- UC_Login
     Funcionario --- UC_F1
     Funcionario --- UC_F2
     Funcionario --- UC_F3
     
-    %% Relacionamentos Administrador
     Administrador --- UC_Login
     Administrador --- UC_A1
     Administrador --- UC_A2
@@ -105,16 +104,15 @@ graph TD
     Administrador --- UC_A4
     Administrador --- UC_A5
     
-    %% Relações entre UCs (Ex: precisa estar logado)
-    UC_F1 ..> UC_Login : "<<include>>"
-    UC_F2 ..> UC_Login : "<<include>>"
-    UC_F3 ..> UC_Login : "<<include>>"
-    UC_A1 ..> UC_Login : "<<include>>"
-    UC_A2 ..> UC_Login : "<<include>>"
-    UC_A3 ..> UC_Login : "<<include>>"
-    UC_A4 ..> UC_Login : "<<include>>"
-    UC_A5 ..> UC_Login : "<<include>>"
-
+    %% Relações |include| (de UCs para Login)
+    UC_F1 -.->|include| UC_Login
+    UC_F2 -.->|include| UC_Login
+    UC_F3 -.->|include| UC_Login
+    UC_A1 -.->|include| UC_Login
+    UC_A2 -.->|include| UC_Login
+    UC_A3 -.->|include| UC_Login
+    UC_A4 -.->|include| UC_Login
+    UC_A5 -.->|include| UC_Login
 ```
 
 # Casos de Uso Web
