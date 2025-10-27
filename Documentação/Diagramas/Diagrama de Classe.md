@@ -1,33 +1,73 @@
-### Diagrama de Sequência Desktop - Exemplo
+### Diagrama de Classes Backend - Desktop
 
 ```mermaid
-sequenceDiagram
-    actor Func as Funcionário
-    participant AppFunc as App Desktop (Func.)
-    participant Servidor as Servidor (Backroom)
-    participant BD as Banco de Dados
-    participant AppAdmin as App Desktop (Admin)
-    actor Admin as Administrador
+classDiagram
+    direction TB
 
-    Func->>AppFunc: Preenche e envia "Solicitar Abertura de Chamado"
-    AppFunc->>Servidor: POST /api/solicitacao (dados)
+    class Usuario {
+        <<Abstract>>
+        # id: int
+        # nome: String
+        # email: String
+        # senhaHash: String
+        + login()
+        + logout()
+    }
+
+    class Funcionario {
+        - departamento: String
+        + solicitarAberturaChamado()
+        + responderChamado()
+    }
+
+    class Administrador {
+        - nivelAcesso: int
+        + aceitarSolicitacao()
+        + criarChamado()
+        + concluirChamado()
+        + excluirChamado()
+    }
+
+    class SolicitacaoChamado {
+        - id: int
+        - titulo: String
+        - descricao: String
+        - dataSolicitacao: DateTime
+        - status: String
+        + aprovar()
+        + rejeitar()
+    }
+
+    class Chamado {
+        - id: int
+        - titulo: String
+        - descricao: String
+        - dataAbertura: DateTime
+        - dataConclusao: DateTime
+        - status: String
+        - prioridade: String
+        + adicionarMensagem()
+    }
     
-    Servidor->>BD: INSERT INTO solicitacoes (dados)
-    BD-->>Servidor: Solicitacao (ID: 123) criada
+    class MensagemChamado {
+        - id: int
+        - conteudo: String
+        - dataEnvio: DateTime
+    }
+
+    %% Herança
+    Usuario <|-- Funcionario
+    Usuario <|-- Administrador
+
+    %% Relacionamentos
+    Funcionario "1" -- "0..*" SolicitacaoChamado : solicita
+    Administrador "1" -- "0..*" SolicitacaoChamado : gerencia
     
-    Servidor-->>AppFunc: "Solicitação enviada para análise"
+    SolicitacaoChamado "1" -- "1" Chamado : gera
     
-    note right of Servidor: O Servidor envia um alerta em tempo real
-    Servidor->>AppAdmin: PUSH_NOTIFY: Nova Solicitação (ID: 123)
+    Funcionario "1" -- "1..*" Chamado : abre
+    Administrador "1" -- "0..*" Chamado : é atribuído a
     
-    Admin->>AppAdmin: Vê notificação e clica em "Aceitar Solicitação"
-    AppAdmin->>Servidor: PUT /api/chamado/123/aceitar
-    
-    Servidor->>BD: UPDATE chamados SET status='Aberto'
-    BD-->>Servidor: Chamado 123 atualizado
-    
-    Servidor-->>AppAdmin: "Chamado (ID: 123) aceito com sucesso!"
-    
-    note left of Servidor: O Servidor notifica o funcionário sobre a abertura
-    Servidor->>AppFunc: PUSH_NOTIFY: Seu chamado (ID: 123) foi aberto!
+    Chamado "1" -- "1..*" MensagemChamado : contém
+    Usuario "1" -- "1..*" MensagemChamado : é o autor
 ```
