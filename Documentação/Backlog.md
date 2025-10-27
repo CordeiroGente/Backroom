@@ -55,7 +55,7 @@ Este documento detalha o backlog priorizado para todos os produtos do ecossistem
 
 ---
 
-## 💻 Produto 2: App Desktop "Help Desk"
+## 💻 Produto 2: App Desktop "Help Desk" ( Exemplo de Sistema Modular feito para uma empresa cliente )
 *Usuários: `Funcionário (Cliente)`, `Administrador (Cliente)`*
 
 ### 🔴 Must-Have (MVP)
@@ -88,7 +88,7 @@ Este documento detalha o backlog priorizado para todos os produtos do ecossistem
 *Usuário: `Administrador (Cliente)`*
 
 ### 🔴 Must-Have (MVP)
--  **(Admin):** Quero `fazer login seguro` (biometria/PIN), para `proteger os dados`.
+-  **(Admin):** Quero `fazer login seguro` (PIN), para `proteger os dados`.
 -  **(Admin):** Quero `receber notificações push` quando um chamado for atualizado, para `ser informado em tempo real`.
 -  **(Admin):** Quero `visualizar a lista de todos os chamados` e seus status.
 -  **(Admin):** Quero `visualizar os detalhes` de um chamado específico.
