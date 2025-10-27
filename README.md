@@ -75,30 +75,44 @@ Mantenha o controle total dos seus dados com sistemas que rodam na sua própria 
 gantt
     title Cronograma do Projeto
     dateFormat  YYYY-MM-DD
+    
     section Sprint 1
-    Planejamento           :sprint1-plan, 2025-09-01, 2d
-    Desenvolvimento        :sprint1-dev, after sprint1-plan, 12d
-    Descanso               :descanso1, after sprint1-dev, 1d
+    Sprint 1 :s1, 2025-09-01, 11d
+    
     section Sprint 2
-    Planejamento           :sprint2-plan, 2025-09-16, 2d
-    Desenvolvimento        :sprint2-dev, after sprint2-plan, 12d
-    Descanso               :descanso2, after sprint2-dev, 1d
+    Sprint 2 :s2, 2025-09-12, 11d
+    
     section Sprint 3
-    Planejamento           :sprint3-plan, 2025-10-01, 2d
-    Desenvolvimento        :sprint3-dev, after sprint3-plan, 12d
-    Testes e Revisão       :sprint3-test, after sprint3-dev, 3d
+    Sprint 3 :s3, 2025-09-23, 11d
+    
+    section Sprint 4
+    Sprint 4 :s4, 2025-10-04, 11d
+    
+    section Sprint 5
+    Sprint 5 :s5, 2025-10-15, 11d
+    
+    section Sprint 6
+    Sprint 6 :s6, 2025-10-26, 11d
 ```
 
 ---
 
+### Tabela Descritiva das Sprints
+
+Esta tabela atualizada resume os 6 Sprints, seus períodos corretos, os objetivos focais que definimos, e o status de "Concluído".
+
+```markdown
 ## Tabela Descritiva das Sprints
 
 | Sprint | Período | Objetivo | Status |
 |--------|---------|----------|--------|
-| **Sprint 1** | 01/09 - 15/09 | [Desenvolvimento da Documentação] | 🟡 Em andamento |
-| **Sprint 2** | 16/09 - 30/09 | [Desenvolvimento Back-End] | ⚪ Planejada |
-| **Sprint 3** | 01/10 - 15/10 | [Planejamento Fronto-End] | ⚪ Planejada |
-| **Sprint 4** | 16/10 - 30/10 | [Implementação IA/Testes] | ⚪ Planejada |
+| **Sprint 1** | 01/09 - 11/09 | Fundação e Autenticação (Web) | Concluído ✅ |
+| **Sprint 2** | 12/09 - 22/09 | Lógica de Negócios (Web) | Concluído ✅ |
+| **Sprint 3** | 23/09 - 03/10 | MVP Help Desk (Funcionário) | Concluído ✅ |
+| **Sprint 4** | 04/10 - 14/10 | MVP Gerenciamento (Desktop + Mobile) | Concluído ✅ |
+| **Sprint 5** | 15/10 - 25/10 | Fluxos Avançados (Should-Haves) | Concluído ✅ |
+| **Sprint 6** | 26/10 - 05/11 | Melhorias e Relatórios (Could-Haves) | Concluído ✅ |
+```
 
 ## Link para Documentação da Sprint
 
@@ -106,6 +120,8 @@ gantt
 - [📋 Sprint 2 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%202.md)
 - [📋 Sprint 3 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%203.md)
 - [📋 Sprint 4 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%204.md)
+- [📋 Sprint 5 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%205.md)
+- [📋 Sprint 6 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%206.md)
 
 ---
 
@@ -148,7 +164,9 @@ Backroom/
 │       ├── Sprint 1.md
 │       ├── sprint 2.md
 │       ├── sprint 3.md
-│       └── sprint 4.md
+│       ├── sprint 4.md
+│       ├── sprint 5.md
+│       └── sprint 6.md
 │
 └── README.md
 ```
