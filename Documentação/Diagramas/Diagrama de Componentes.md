@@ -1,4 +1,4 @@
-### Diagrama de Componentes
+# Diagrama de Componentes
 
 ```mermaid
 graph TD
