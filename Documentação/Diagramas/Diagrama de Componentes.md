@@ -3,12 +3,12 @@
 ```mermaid
 graph TD
     %% Componentes Principais
-    LP[Landing Page (Web)]
-    AD[App Desktop (Cliente)]
-    AM[App Mobile (Admin)]
-    API[API REST (Backend)]
+    LP("Landing Page (Web)")
+    AD("App Desktop (Cliente)")
+    AM("App Mobile (Admin)")
+    API("API REST (Backend)")
     DB[(Banco de Dados)]
-    SNP{Serviço de Notificação Push}
+    SNP{"Serviço de Notificação Push"}
 
     %% Conexões e Interfaces
     
