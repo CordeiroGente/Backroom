@@ -120,8 +120,8 @@ Esta tabela atualizada resume os 6 Sprints, seus períodos corretos, os objetivo
 - [📋 Sprint 2 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%202.md)
 - [📋 Sprint 3 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%203.md)
 - [📋 Sprint 4 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%204.md)
-- [📋 Sprint 5 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%205.md)
-- [📋 Sprint 6 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/sprint%206.md)
+- [📋 Sprint 5 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/Sprint%205.md)
+- [📋 Sprint 6 - Documentação](https://github.com/CordeiroGente/Backroom/blob/main/Documenta%C3%A7%C3%A3o/Sprints/Sprint%206.md)
 
 ---
 
