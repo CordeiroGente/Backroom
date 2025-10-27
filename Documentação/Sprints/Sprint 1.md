@@ -1,56 +1,25 @@
-# Sprint 1 - Documentação Base
-
-> Primeira sprint do projeto Backroom focada em estabelecer a documentação fundamental
+# 🏁 Sprint 1: A Fundação (Plataforma Web)
 
 ## 📅 Informações da Sprint
 
-- **Período**: 01/09/2025 - 15/09/2025 (2 semanas)
+- **Período**: 01/09/2025 - 11/09/2025 (11 dias)
 - **Foco**: Documentação e estruturação inicial
-- **Status**: Em andamento
+- **Status**: Concluído ✅
 
 ---
 
-## 🎯 Objetivos
+## 🎯 Sprint Planning (Planejamento)
 
-Estabelecer a base documental do projeto para facilitar o desenvolvimento futuro e alinhamento da equipe.
+**Objetivo da Sprint:** Estabelecer a infraestrutura básica do projeto, a landing page (já existente) e o sistema de autenticação.
 
----
+**Meta:** Ao final desta Sprint, um usuário deve ser capaz de se cadastrar na plataforma e fazer login com sucesso, acessando um painel de boas-vindas.
 
-## 📋 Tarefas
+## ✅ Sprint Backlog (Itens Concluídos)
 
-### ✅ Concluído
-- **Objetivo-001** - README principal do projeto
-- **Objetivo-002** - Estrutura inicial de pastas
-
-### 🔄 Em Progresso
-- **Objetivo-003** - Desenvolvimento dos Diagramas
-- **Objetivo-003** - Documentação dos Diagramas
-
-### 📝 Pendente
-- **Objetivo-005** - Finalização Backlog
-
----
-
-## 👥 Time
-
-- **Product Owner**: Pedro H.P. Cordeiro
-- **Scrum Master**: Henrique P.C. Perrenchelle
-- **Desenvolvedor**: Perrenchelle C.H. Pedro
-
----
-
-## 📊 Progresso
-
-- **Concluído**: 2/5 tarefas (40%)
-- **Meta**: Finalizar todas as tarefas até 15/09
-
----
-
-## 🔍 Próximos Passos
-
-1. Preparar ambiente para Sprint 2 (desenvolvimento)
-
----
+- [x] **(Web):** (Visitante) Quero `ver a landing page` com os serviços, para `entender o que a Backroom faz`.
+- [x] **(Web):** (Visitante) Quero `me cadastrar` como novo cliente, para `solicitar serviços`.
+- [x] **(Web):** (Cliente/Admin) Quero `fazer login` no sistema, para `acessar meu painel`.
+- [x] **(Técnico):** Definir e criar os esquemas iniciais do banco de dados (`Usuario`, `Cliente`, `Projeto`).
 
 ## Main
 
