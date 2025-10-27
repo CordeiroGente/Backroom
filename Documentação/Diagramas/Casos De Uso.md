@@ -61,8 +61,8 @@ graph TD
 ```mermaid
 graph TD
     %% Atores
-    Funcionario("Funcionário (Cliente)")
-    Administrador("Administrador (Cliente)")
+    Funcionario("Funcionário")
+    Administrador("Administrador")
 
     %% Sistema e Casos de Uso
     subgraph "Sistema de Chamados (Desktop)"
@@ -132,10 +132,10 @@ graph TD
 ```mermaid
 graph TD
     %% Ator
-    Administrador("Administrador (Cliente)")
+    Administrador("Administrador")
 
     %% Sistema e Casos de Uso
-    subgraph "Sistema de Chamados (Mobile)"
+    subgraph "Sistema de Chamados"
         direction TB
         
         %% UCs Gerais
