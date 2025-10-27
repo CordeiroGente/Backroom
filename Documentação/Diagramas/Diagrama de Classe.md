@@ -72,7 +72,7 @@ classDiagram
     Usuario "1" -- "1..*" MensagemChamado : é o autor
 ```
 
-### Diagrama de Classes Desktop - Client-side
+# Diagrama de Classes Desktop - Client-side
 
 ```mermaid
 classDiagram
@@ -110,7 +110,7 @@ classDiagram
     ChamadoService ..> ChamadoViewModel : cria/popula
 ```
 
-### Diagrama de Classes Mobile - Client-Side
+# Diagrama de Classes Mobile - Client-Side
 
 ```mermaid
 classDiagram
