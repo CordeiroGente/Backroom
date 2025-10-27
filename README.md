@@ -14,7 +14,7 @@
 
 ## 📑 Índice
 
-| [Empresa](#backroom) | [Equipe](#-Equipe) | [Backlog](#backlog-do-produto) | [Cronograma](#-cronograma-das-sprints) | [Sprints](#tabela-descritiva-das-sprints) | [Tecnologias](#tecnologias-utilizadas) | [Estrutura](#estrutura-do-projeto) | [Documentação](#link-para-documentação) | [Contato](#-Contato) |
+| [Empresa](#backroom) | [Backlog](#backlog-do-produto) | [Cronograma](#-cronograma-das-sprints) | [Sprints](#tabela-descritiva-das-sprints) | [Tecnologias](#tecnologias-utilizadas) | [Estrutura](#estrutura-do-projeto) | [Documentação](#link-para-documentação) | [Backend](#Código-para-a-execução-e-testes-do-projeto) | [Equipe](#-Equipe) | [Contato](#-Contato) |
 
 ---
 
@@ -45,31 +45,13 @@ Mantenha o controle total dos seus dados com sistemas que rodam na sua própria 
   Implementação e treinamento - Com profissionais treinados em comunicação, a sua empresa será ensinada a ter autonomia sobre seu programa.
   Suporte contínuo - Caso deseje suporte direto por tempo indeterminado, oferecemos assinaturas para o suporte especializado.
 
-  ---
-
-  ## 👥 Equipe
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Project Owner"><br /><b>[Pedro H.P. Cordeiro]</b><br /><i>Project Owner</i></td>
-      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Cientista de Dados"><br /><b>[Cordeiro H.P. Perrenchelle]</b><br /><i>Cientista de Dados</i></td>
-      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Designer"><br /><b>[Henrique Pedro P.C.]</b><br /><i>UX/UI Designer</i></td>
-      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Desenvolvedor"><br /><b>[Perrenchelle C.H. Pedro]</b><br /><i>Desenvolvedor Pricipal</i></td>
-      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Scrum Master"><br /><b>[Henrique P.C. Perrenchelle]</b><br /><i>Scrum Master</i></td>
-    </tr>
-  </table>
-</div>
-
----
-
 ## Backlog do Produto
 
 - [✔️] [**Epic do cliente**](https://github.com/CordeiroGente/Backroom/blob/main/Backlog.md) 
 
 ---
 
-## ⏰ Cronograma das Sprints
+## ⏰ Cronograma das Sprints ( Evolução do Projeto )
 
 ```mermaid
 gantt
@@ -133,19 +115,19 @@ Esta tabela atualizada resume os 6 Sprints, seus períodos corretos, os objetivo
 
 
 ### Frontend
-- [Framework/Biblioteca] - v[X.X.X]
-- [Tecnologia 2] - v[X.X.X]
+- [Framework/Biblioteca] - WPF 
+- [Tecnologia 2] - C#
 
 ### Backend
-- [Linguagem/Framework] - C# v[X.X.X]
-- [Tecnologia 2] - v[X.X.X]
+- [Linguagem/Framework] - C# 
+- [Tecnologia 2] - Blazor
 
 ### Banco de Dados
-- [Sistema de BD] - v[X.X.X]
+- [Sistema de BD] - Microsoft SQL
 
 ### DevOps/Ferramentas
-- [Ferramenta 1] - v[X.X.X]
-- [Ferramenta 2] - v[X.X.X]
+- [Ferramenta 1] - Testes de uso
+- [Ferramenta 2] - Testes com voluntários
 
 ---
 
@@ -171,11 +153,33 @@ Backroom/
 └── README.md
 ```
 
+## Código para a execução e testes do projeto
+
+- [**Backend**](https://github.com/CordeiroGente/PIM_Design)
+
 ---
 
 ## Diagramas
 
 📚 [**Diagramas**](https://github.com/CordeiroGente/Backroom/tree/main/Documenta%C3%A7%C3%A3o/Diagramas)
+
+  ---
+
+  ## 👥 Equipe
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Project Owner"><br /><b>[Pedro H.P. Cordeiro]</b><br /><i>Project Owner</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Cientista de Dados"><br /><b>[Cordeiro H.P. Perrenchelle]</b><br /><i>Cientista de Dados</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Designer"><br /><b>[Henrique Pedro P.C.]</b><br /><i>UX/UI Designer</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Desenvolvedor"><br /><b>[Perrenchelle C.H. Pedro]</b><br /><i>Desenvolvedor Pricipal</i></td>
+      <td align="center"><img src="https://github.com/CordeiroGente/Imagens/blob/main/Bust%20icon.png?raw=true" width="100px;" alt="Foto do Scrum Master"><br /><b>[Henrique P.C. Perrenchelle]</b><br /><i>Scrum Master</i></td>
+    </tr>
+  </table>
+</div>
+
+---
 
 ---
 
