@@ -1,116 +1,56 @@
-# Diagrama de Classes Backend - Desktop
+# Diagrama de Classes (Entidades Principais)
 
 ```mermaid
 classDiagram
-    direction TB
-
-    class Usuario {
-        <<Abstract>>
-        # id: int
-        # nome: String
-        # email: String
-        # senhaHash: String
-        + login()
-        + logout()
-    }
-
-    class Funcionario {
-        - departamento: String
-        + solicitarAberturaChamado()
-        + responderChamado()
-    }
-
-    class Administrador {
-        - nivelAcesso: int
-        + aceitarSolicitacao()
-        + criarChamado()
-        + concluirChamado()
-        + excluirChamado()
-    }
-
-    class SolicitacaoChamado {
-        - id: int
-        - titulo: String
-        - descricao: String
-        - dataSolicitacao: DateTime
-        - status: String
-        + aprovar()
-        + rejeitar()
+    class User {
+        +int UserId
+        +string FullName
+        +string Username
+        +string Password
+        +string Role
     }
 
     class Chamado {
-        - id: int
-        - titulo: String
-        - descricao: String
-        - dataAbertura: DateTime
-        - dataConclusao: DateTime
-        - status: String
-        - prioridade: String
-        + adicionarMensagem()
-    }
-    
-    class MensagemChamado {
-        - id: int
-        - conteudo: String
-        - dataEnvio: DateTime
+        +int ChamadoId
+        +string Titulo
+        +string Descricao
+        +string Status
+        +DateTime DataAbertura
+        +int AutorId
+        +int TecnicoId
     }
 
-    %% Herança
-    Usuario <|-- Funcionario
-    Usuario <|-- Administrador
-
-    %% Relacionamentos
-    Funcionario "1" -- "0..*" SolicitacaoChamado : solicita
-    Administrador "1" -- "0..*" SolicitacaoChamado : gerencia
-    
-    SolicitacaoChamado "1" -- "1" Chamado : gera
-    
-    Funcionario "1" -- "1..*" Chamado : abre
-    Administrador "1" -- "0..*" Chamado : é atribuído a
-    
-    Chamado "1" -- "1..*" MensagemChamado : contém
-    Usuario "1" -- "1..*" MensagemChamado : é o autor
+    User "1" -- "1..*" Chamado : Autor (Abre)
+    User "1" -- "0..*" Chamado : Técnico (Atende)
 ```
 
 # Diagrama de Classes Desktop - Client-side
 
 ```mermaid
 classDiagram
-    direction TB
-
-    class LoginView {
-        + exibirFormulario()
-        + obterCredenciais()
-    }
-    
-    class DashboardView {
-        + exibirPaineis()
-        + notificarUsuario()
+    class User {
+        +int UserId
+        +string FullName
+        +string Username
+        +string Password
+        +string Role
     }
 
-    class ChamadoService {
-        - apiToken: String
-        + autenticar(user, pass)
-        + buscarChamados()
-        + criarSolicitacao(dados)
-        + aprovarSolicitacao(id)
-        + enviarMensagem(chamadoId, texto)
+    class Chamado {
+        +int ChamadoId
+        +string Titulo
+        +string Descricao
+        +string Status
+        +DateTime DataAbertura
+        +int AutorId
+        +int TecnicoId
     }
 
-    class ChamadoViewModel {
-        <<ViewModel>>
-        - id: int
-        - titulo: String
-        - status: String
-        + formatarStatusParaUI()
-    }
-
-    LoginView --> ChamadoService : usa
-    DashboardView --> ChamadoService : usa
-    ChamadoService ..> ChamadoViewModel : cria/popula
+    User "1" -- "1..*" Chamado : Autor (Abre)
+    User "1" -- "0..*" Chamado : Técnico (Atende)
 ```
 
-# Diagrama de Classes Mobile - Client-Side
+# Diagrama de Classes (Implementação e Dependências)
 
 ```mermaid
 classDiagram
