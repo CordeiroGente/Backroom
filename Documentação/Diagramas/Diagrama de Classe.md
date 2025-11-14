@@ -63,11 +63,6 @@ classDiagram
     class ChamadoListScreen {
         + exibirListaChamados()
     }
-    
-    class PushNotificationHandler {
-        + onReceive(notificacao)
-        + exibirAlerta()
-    }
 
     class ApiService {
         - apiToken: String
