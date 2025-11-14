@@ -80,6 +80,5 @@ classDiagram
 
     LoginScreen --> ApiService : usa
     ChamadoListScreen --> ApiService : usa
-    PushNotificationHandler --> ApiService : usa
     ApiService ..> ChamadoModel : cria/popula
 ```
