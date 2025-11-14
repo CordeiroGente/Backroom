@@ -58,7 +58,6 @@ classDiagram
 
     class LoginScreen {
         + exibirFormulario()
-        + usarBiometria()
     }
 
     class ChamadoListScreen {
